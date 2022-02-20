@@ -21,7 +21,7 @@
   <div class="spring_all">
   <div class="spring_ttl">Spring</div>
   <div class="btn_box">
-    <a href="<?php echo get_template_directory_uri();?>/html/page-photos.php" class="btn">View Photos</a>
+    <a href="http://localhost:8888/photos/" class="btn">View Photos</a>
   </div>
 </div>
 </section>
@@ -29,7 +29,7 @@
   <div class="summer_all">
   <div class="summer_ttl">Summer</div>
   <div class="btn_box">
-    <a href="<?php echo get_template_directory_uri();?>/html/page-photos.php" class="btn">View Photos</a>
+    <a href="http://localhost:8888/photos/" class="btn">View Photos</a>
   </div>
 </div>
 </section>
@@ -37,14 +37,14 @@
   <div class="autumn_all">
   <div class="autumn_ttl">Autumn</div>
   <div class="btn_box">
-    <a href="<?php echo get_template_directory_uri();?>/html/page-photos.php" class="btn">View Photos</a>
+    <a href="http://localhost:8888/photos/" class="btn">View Photos</a>
   </div>
 </div>
 </section>
 <section class="box winter" id="winter">
   <div class="winter_all">
   <div class="winter_ttl">Winter</div>
-    <a href="<?php echo get_template_directory_uri();?>/html/page-photos.php" class="btn">View Photos</a>
+    <a href="http://localhost:8888/photos/" class="btn">View Photos</a>
 
 </div>
 

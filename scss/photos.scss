@@ -5,31 +5,6 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
-header {
-
-  nav {
-    display: flex;
-    float: right;
-  }
-
-  .header_all {
-    position: fixed;
-    margin-top: 1%;
-    right: 0;
-    z-index: 1000;
-  }
-
-  ul {
-    display: flex;
-    position: relative;
-    z-index: 1000;
-  }
-
-  li {
-    margin-right: 25px;
-  }
-}
-
 .photo_title {
   font-size: 150px;
   @include cursive;

@@ -14,8 +14,7 @@ header {
 
   .header_all {
     position: fixed;
-    margin-top: 1%;
-    top: 0;
+    top: 3%;
     right: 0;
     z-index: 1000;
   }
@@ -28,13 +27,15 @@ header {
 
   li {
     margin-right: 25px;
+
   }
 }
 
 footer {
   margin-top: -80px;
   z-index: 10;
-  padding-top: 300px;
+  padding-top: 600px;
+  padding-bottom: 100px;
 }
 
 .footer_txt {
@@ -47,9 +48,10 @@ footer {
 
 .single {
   width: 60%;
-  margin: 3% auto;
+  margin:0 auto;
 
   &_top {
+    padding-top: 6%;
     margin-bottom: 50px;
   }
 
@@ -67,7 +69,66 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px){
+.paper {
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  padding-top: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.paper_preview {
+  font-size: 30px;
+  text-align: right;
+}
+
+.paper_box {
+  width: 200px;
+}
+
+.paper_next {
+  font-size: 30px;
+}
+
+.paper_back {
+  width: 10%;
+  text-align: center;
+  padding-left: 6%;
+  padding-right: 6%;
+
+  a {
+
+    span {
+      font-size: 35px;
+    }
+  }
+}
+
+
+@media screen and (max-width:1100px){
+
+    .paper_preview {
+  font-size: 18px;
+}
+
+.paper_next {
+  font-size: 18px;
+}
+
+.paper_back {
+
+  a {
+
+    span {
+      font-size: 18px;
+    }
+  }
+}
+
+}
+
+@media screen and (max-width:900px){
 
   .header_all {
     margin-top: 2%;
@@ -89,4 +150,6 @@ footer {
       font-size: 17px;
     }
   }
+
 }
+

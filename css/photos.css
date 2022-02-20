@@ -2,32 +2,6 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
-header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: right;
-}
-
-header .header_all {
-  position: fixed;
-  margin-top: 1%;
-  right: 0;
-  z-index: 1000;
-}
-
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  z-index: 1000;
-}
-
-header li {
-  margin-right: 25px;
-}
-
 .photo_title {
   font-size: 150px;
   font-family: 'Pinyon Script', cursive;

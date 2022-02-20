@@ -24,21 +24,11 @@
 </head>
 
 <body> -->
-  <header>
-    <div class="header_all">
-      <nav>
-        <ul>
-          <li><a href="../index.html">home</a></li>
-          <li><a href="../html/photos.html">photos</a></li>
-          <li><a href="../html/archive.html">contact</a></li>
-          <li><a href="../html/archive.html">blog</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <?php get_header(single); ?>
+
   <main>
 
-    <section class="single">
+    <!-- <section class="single"></section>
       <div class="single_top">
         <img src="../images/spring/Cherry blossoms2.jpg">
       </div>
@@ -56,11 +46,57 @@
         仮の文章仮の文章仮の文章仮の文章仮の文章仮の文章仮の文章仮の文章仮の文章仮の
         文章
       </div>
+    </section> -->
+
+    <section class="single">
+
+<?php ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+<?php ?>
+    <?php if(has_post_thumbnail()): ?>
+    <div class="single_top">
+        <img src="<?php the_post_thumbnail_url('large'); ?>">
+    </div>
+    <?php endif; ?>
+    <?php ?>
+
+    <?php ?>
+    <div class="single_title"><?php the_title(); ?></div>
+    <?php ?>
+
+    <?php ?>
+    <div class="single_date"><?php the_time('Y.m.d'); ?>
+    <?php ?>
+
+    <?php ?>
+    <div class="single_txt">
+      <?php echo the_content(); ?>
+    </div>
+    <?php ?>
+
+<?php endwhile; endif; ?>
+<?php ?>
+
     </section>
+
+  <section class="paper">
+    <div class="paper_preview">
+      <div class="paper_box">
+        <?php previous_post_link('%link <', 'preview'); ?>
+      </div>
+      </div>
+      <div class="paper_back">
+      <a href="http://localhost:8888/blog"><span>BLOG</span></a>
+      </div>
+      <div class="paper_next">
+        <div class="paper_box">
+        <?php next_post_link('> %link', 'next'); ?>
+        </div>
+      </div>
+  </section>
   </main>
-  <footer>
-    <div class="footer_txt">©︎SHEIK ALL right reserved</div>
-  </footer>
+  <?php get_footer(); ?>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript"
