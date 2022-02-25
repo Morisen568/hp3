@@ -164,10 +164,66 @@ footer {
 @media screen and (max-width: 768px){
 
   .header_all {
-    margin-top: 2%;
+    margin-top: 0;
   }
 
   .slider {
     width: 60%;
   }
+}
+
+@media screen and (max-width: 500px){
+
+  .photo_title {
+  font-size: 90px;
+}
+
+.spring_title {
+  font-size: 75px;
+}
+
+.summer_title {
+  font-size: 75px;
+}
+
+.autumn_title {
+  font-size: 75px;
+}
+
+.winter_title {
+  font-size: 75px;
+}
+
+  .slider {
+    width: 90%;
+    margin-bottom:100px;
+  }
+}
+
+@media screen and (max-width: 400px){
+.photo_title {
+  font-size: 100px;
+}
+
+.spring_title {
+  font-size: 65px;
+}
+
+.summer_title {
+  font-size: 65px;
+}
+
+.autumn_title {
+  font-size: 65px;
+}
+
+.winter_title {
+  font-size: 65px;
+}
+}
+
+@media screen and (max-width: 330px){
+.photo_title {
+  font-size: 80px;
+}
 }

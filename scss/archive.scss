@@ -5,32 +5,6 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
-header {
-
-  nav {
-    display: flex;
-    float: right;
-  }
-
-  .header_all {
-    position: fixed;
-    margin-top: 1%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-  }
-
-  ul {
-    display: flex;
-    position: relative;
-    z-index: 1000;
-  }
-
-  li {
-    margin-right: 25px;
-
-  }
-}
 
 .blog {
 
@@ -40,7 +14,7 @@ header {
     font-weight: lighter;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 5%;
   }
 
@@ -231,5 +205,20 @@ footer {
   &_txt2 {
     font-size: 15px;
   }
+  }
+
+    .blog_item:nth-child(2n+1) {
+
+    a {
+      line-height: 30px;
+    }
+
+  }
+
+    .blog_item:nth-child(2n) {
+
+    a {
+      line-height: 30px;
+    }
   }
 }

@@ -3,15 +3,6 @@
 
     <section class="blog">
       <h2 class="blog_title">Blog</h2>
-      <!-- <div class="blog_item">
-      <div class="aaa"></div>
-      <div class="blog_left">
-        <a href="../html/single.html" class="blog_ttl">April 2021<br><span class="blog_txt">春です</span></a>
-      </div>
-      <div class="blog_right">
-        <a href="../html/single.html"><img  src="<?php echo get_template_directory_uri();?>/images/other/flower1.jpg"></a>
-      </div>
-    </div> -->
     <?php if (have_posts()) :
   while (have_posts()) :
     the_post(); ?>

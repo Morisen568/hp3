@@ -264,11 +264,66 @@ footer {
 @media screen and (max-width: 768px){
 
   .header_all {
-    margin-top: 2%;
+    top: 2%;
   }
 
   .top2_box {
     margin: 0 auto 0 auto;
   }
 
+}
+
+@media screen and (max-width: 500px){
+
+#top2 {
+  background: url("../images/spring/sakura.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.top2 {
+
+  &_box {
+    width: 250px;
+    height: 470px;
+  }
+
+  &_txt {
+    font-size: 15px;
+  }
+
+}
+
+.spring {
+
+  &_ttl {
+    font-size: 90px;
+  }
+
+}
+
+.summer {
+
+  &_ttl {
+    font-size: 90px;
+  }
+}
+
+.autumn {
+
+  &_ttl {
+    font-size: 90px;
+  }
+}
+
+.winter {
+
+  &_ttl {
+    font-size: 90px;
+  }
+}
+
+.btn {
+  padding: 25px 58px 25px 58px;
+}
 }

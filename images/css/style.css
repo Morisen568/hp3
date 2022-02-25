@@ -263,33 +263,3 @@ footer {
     margin: 0 auto 0 auto;
   }
 }
-
-@media screen and (max-width: 500px) {
-  #top2 {
-    background: url("../images/spring/sakura.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  .top2_box {
-    width: 250px;
-    height: 470px;
-  }
-  .top2_txt {
-    font-size: 15px;
-  }
-  .spring_ttl {
-    font-size: 90px;
-  }
-  .summer_ttl {
-    font-size: 90px;
-  }
-  .autumn_ttl {
-    font-size: 90px;
-  }
-  .winter_ttl {
-    font-size: 90px;
-  }
-  .btn {
-    padding: 25px 58px 25px 58px;
-  }
-}

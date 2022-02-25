@@ -146,12 +146,3 @@ footer {
     top: 2%;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .paper_box {
-    width: 90px;
-  }
-  .paper_back {
-    width: 20%;
-  }
-}

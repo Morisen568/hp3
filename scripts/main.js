@@ -2,7 +2,7 @@
 
 
   $('#top').vegas({
-  overlay: true,
+  overlay: false,
   transition: 'blur',
   transitionDuration: 2000,
   delay: 3000,

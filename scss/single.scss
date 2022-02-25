@@ -14,9 +14,9 @@ header {
 
   .header_all {
     position: fixed;
-    top: 3%;
     right: 0;
     z-index: 1000;
+    margin-top: 1%;
   }
 
   ul {
@@ -131,7 +131,10 @@ footer {
 @media screen and (max-width:900px){
 
   .header_all {
-    margin-top: 2%;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    margin-top: 0%;
   }
 
   .single {
@@ -153,3 +156,20 @@ footer {
 
 }
 
+@media screen and (max-width: 768px){
+
+  .header_all {
+    top: 2%;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .paper_box {
+  width: 90px;
+}
+
+.paper_back {
+  width: 20%;
+  }
+}
